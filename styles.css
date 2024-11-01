@@ -78,6 +78,7 @@ img {
   padding: 3px 6px;
   text-align: center;
   align-items: center;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .card-button.selected, .card-button:active {

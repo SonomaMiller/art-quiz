@@ -161,8 +161,10 @@
     this.classList.add("correct");
     score++;
     id("count").textContent = score;
-    setTimeout(() => this.classList.remove("correct"), oneSec);
-    setTimeout(fetchNext, oneSec);
+    setTimeout(() => {
+      this.classList.remove("correct");
+      fetchNext();
+    }, oneSec);
   }
 
   /**
@@ -170,8 +172,15 @@
    */
   function wrongClick() {
     this.classList.add("wrong");
-    setTimeout(() => this.classList.remove("wrong"), oneSec);
-    setTimeout(fetchNext, oneSec);
+    let content = id("content");
+    let correct = content.querySelector(".correct-button");
+    correct.classList.add("correct");
+
+    setTimeout(() => {
+      correct.classList.remove("correct");
+      this.classList.remove("wrong");
+      fetchNext();
+    }, oneSec);
   }
 
   /**
