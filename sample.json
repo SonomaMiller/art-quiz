@@ -1,0 +1,60 @@
+{
+    "pagination": {
+      "total": 126312,
+      "limit": 4,
+      "offset": 0,
+      "total_pages": 31578,
+      "current_page": 1,
+      "next_url": "https://api.artic.edu/api/v1/artworks?page=2&fields=id%2Ctitle%2Cartist_display%2Cdate_start%2Cdate_end%2Chas_not_been_viewed_much%2Cimage_id&query%5Bterm%5D%5Bhas_not_been_viewed_much%5D=false%22&limit=4"
+    },
+    "data": [
+      {
+        "id": 37900,
+        "title": "Study for Mary Lousie Reynolds Collection Label",
+        "has_not_been_viewed_much": false,
+        "date_start": 1946,
+        "date_end": 1956,
+        "artist_display": "Marcel Duchamp\nAmerican, born France, 1887-1968",
+        "image_id": "d84b46e6-aaac-eca3-2be0-5511e1cbed8c"
+      },
+      {
+        "id": 81003,
+        "title": "Adoration of the Shepherds",
+        "has_not_been_viewed_much": true,
+        "date_start": 1577,
+        "date_end": 1699,
+        "artist_display": "Attributed to Agostino Carracci\nItalian, 1557-1602",
+        "image_id": "d14b8f9a-d82f-37ed-5918-610cce1b967a"
+      },
+      {
+        "id": 48883,
+        "title": "The Crouched Ones (Los agachados)",
+        "has_not_been_viewed_much": true,
+        "date_start": 1934,
+        "date_end": 1934,
+        "artist_display": "Manuel Alvarez Bravo\nMexican, 1902–2002",
+        "image_id": "ac167e1a-78f0-2621-5676-58f38a6c16f3"
+      },
+      {
+        "id": 34722,
+        "title": "Mary Reynolds",
+        "has_not_been_viewed_much": false,
+        "date_start": 1919,
+        "date_end": 1950,
+        "artist_display": "Man Ray (Emmanuel Radnitzky)\nAmerican, 1890-1976",
+        "image_id": "e0059196-6eb3-d80b-1cd0-658618bf77ad"
+      }
+    ],
+    "info": {
+      "license_text": "The `description` field in this response is licensed under a Creative Commons Attribution 4.0 Generic License (CC-By) and the Terms and Conditions of artic.edu. All other data in this response is licensed under a Creative Commons Zero (CC0) 1.0 designation and the Terms and Conditions of artic.edu.",
+      "license_links": [
+        "https://creativecommons.org/publicdomain/zero/1.0/",
+        "https://www.artic.edu/terms"
+      ],
+      "version": "1.10"
+    },
+    "config": {
+      "iiif_url": "https://www.artic.edu/iiif/2",
+      "website_url": "http://www.artic.edu"
+    }
+  }
